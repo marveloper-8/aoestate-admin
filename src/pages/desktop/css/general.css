@@ -1,0 +1,316 @@
+.desktop{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    /* overflow-x:hidden; */
+    height:auto;
+}
+
+.desktop .header{
+    height:55vh;
+    background:rgb(166, 192, 253);
+}
+
+.desktop .header .text{
+    position:absolute;
+    font-size:3.5vw;
+    top:25vh;
+    left:10vw;
+}
+.desktop .header .text span{
+    background:rgb(0, 0, 0);
+    color:#fff;
+    padding:3vh 3vw;
+}
+
+.desktop .header .text span.primary{
+    z-index:10;
+    display:block;
+    margin-bottom:-9vh;
+}
+
+.desktop .container-text{
+    padding:15vh 15vw;
+    background:#fff;
+}
+.desktop .container-text-two{
+    padding:15vh 15vw;
+    background:#f5f5f5;
+}
+.desktop .content{
+    padding:0 0;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin:0;
+}
+.desktop .content h1{
+    color:rgb(182, 164, 60);
+    font-size:4vw;
+}
+.desktop .content button{
+    padding:2vh 1vw;
+    background:rgb(182, 164, 60);
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    font-size:.9vw;
+    transition:.5s ease-in-out;
+    border-radius:5px;
+}
+.desktop .content button:hover{
+    padding:2.25vh 1.25vw;
+    background:rgb(0, 98, 98);
+}
+.desktop .content p{
+    padding:2vh 0;
+}
+.desktop .container-text .content-left .text,
+.desktop .container-text-two .content-left .text{
+    padding-right:5vw;
+}
+.desktop .container-text .content-right .text,
+.desktop .container-text-two .content-right .text{
+    padding-left:5vw;
+}
+.desktop .container-text .image-collage{
+    display:grid;
+    grid-template-columns:1fr 1.25fr 1fr;
+    margin-top:5vh;
+}
+.desktop .container-text .image-collage div{
+    width:95%;
+    height:50vh;
+    border-radius:5px;
+}
+.desktop .success-story .caption{
+    padding:5vh 7.5vw;
+}
+.desktop .success-story h1{
+    font-size:4vw;
+    color:rgb(182, 164, 60);
+}
+.desktop .success-story h4{
+    color:rgb(182, 164, 60);
+    margin-bottom:2vh;
+}
+
+
+.desktop .container-upload{
+    padding:0 10vw;
+}
+.desktop .container-upload h1{
+    font-size:3vw;
+    color:rgb(182, 164, 60);
+    text-align:center;
+    margin-bottom:7.5vh;
+}
+
+
+.desktop .logo-carousel{
+    text-align:center;
+    margin:0;
+    padding:10vh 5vw;
+    background:#fff;
+}
+.desktop .logo-carousel .logo-carousel-container{
+    padding:10vh 5vw;
+    display:grid;
+    text-align:center;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.desktop .logo-carousel .logo-carousel-container .logo{
+    width:70%;
+    margin:auto;
+}
+
+
+.desktop .statistics{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    text-align:center;
+}
+.desktop .statistics h2{
+    font-size:2.5vw;
+    font-weight:bold;
+}
+.desktop .statistics .value{
+    color:rgb(182, 164, 60);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-desktop{
+    padding:15vh 15vw;
+    overflow-x:hidden;
+    background:#fff;
+}
+.form-desktop h1{
+    text-align:center;
+    color:rgb(182, 164, 60);
+    padding-bottom:5vh;
+    font-size:2.5vw;
+}
+.form-desktop .text{
+    padding-top:5vh;
+}
+.form-desktop .text h1{
+    font-size:2.5vw;
+    font-weight:bold;
+    margin-bottom:9vh;
+}
+.form-desktop .text .tab{
+    background:#fff;
+    width:100%;
+    padding:2vh 1.5vw;
+    margin-bottom:4vh;
+    border-radius:10px;
+    font-size:.9vw;
+}
+.form-desktop .text .tab label{
+    font-weight:bold;
+    font-size:1.1vw;
+    color:rgb(182, 164, 60);
+}
+.form-desktop .form{
+    box-shadow: 0 4px 8px 0 rgba(132, 132, 132, 0.2), 0 6px 20px 0 rgba(177, 177, 177, 0.19);
+    border-radius:10px;
+    padding:7.5vh 2.5vw;
+    background:#fff;
+}
+.form-desktop .form .tab{
+    margin-bottom:5vh;
+}
+.form-desktop .form label{
+    font-size:.85vw;
+}
+.form-desktop .form .input,
+.form-desktop .form textarea{
+    font-size:.85vw;
+    width:95%;
+    background:rgb(255, 244, 217);
+    border:1px #dadada solid;
+    padding:2vh 1vw;
+    border-radius:5px;
+    margin-top:1vh;
+}
+.form-desktop .form textarea{
+    height:7.5vh;
+}
+.form-desktop .form button{
+    padding:2vh 1vw;
+    background:rgb(182, 164, 60);
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    transition:.5s ease-in-out;
+    border-radius:5px;
+    font-size:.9vw;
+}
+.form-desktop .form button:hover{
+    padding:2.25vh 1.25vw;
+    background:rgb(127, 111, 20);
+    /* border:6px rgba(0,0,0,.1) solid; */
+}
+
+.form-desktop .specific{
+    color:rgb(182, 164, 60);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-desktop-two{
+    box-shadow: 0 4px 8px 0 rgba(132, 132, 132, 0.2), 0 6px 20px 0 rgba(177, 177, 177, 0.19);
+    overflow-x:hidden;
+}
+.form-desktop-two h1{
+    text-align:center;
+    color:rgb(182, 164, 60);
+    padding-bottom:5vh;
+    font-size:2.5vw;
+}
+.form-desktop-two .text{
+    padding-top:5vh;
+}
+.form-desktop-two .text h1{
+    font-size:2.5vw;
+    font-weight:bold;
+    margin-bottom:9vh;
+}
+.form-desktop-two .text .tab{
+    background:#fff;
+    width:100%;
+    padding:2vh 1.5vw;
+    margin-bottom:4vh;
+    border-radius:10px;
+    font-size:.9vw;
+}
+.form-desktop-two .text .tab label{
+    font-weight:bold;
+    font-size:1.1vw;
+    color:rgb(182, 164, 60);
+}
+.form-desktop-two .form{
+    border-radius:10px;
+    padding:7.5vh 2.5vw;
+    background:#fff;
+}
+.form-desktop-two .form .tab{
+    margin-bottom:5vh;
+}
+.form-desktop-two .form label{
+    font-size:.85vw;
+}
+.form-desktop-two .form .input,
+.form-desktop-two .form textarea{
+    font-size:.85vw;
+    width:95%;
+    background:rgb(255, 244, 217);
+    border:1px #dadada solid;
+    padding:2vh 1vw;
+    border-radius:5px;
+    margin-top:1vh;
+}
+.form-desktop-two .form textarea{
+    height:7.5vh;
+}
+.form-desktop-two .form button{
+    padding:2vh 1vw;
+    background:rgb(182, 164, 60);
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    transition:.5s ease-in-out;
+    border-radius:5px;
+    font-size:.9vw;
+}
+.form-desktop-two .form button:hover{
+    padding:2.25vh 1.25vw;
+    background:rgb(127, 111, 20);
+    /* border:6px rgba(0,0,0,.1) solid; */
+}
+
+.form-desktop-two .specific{
+    color:rgb(182, 164, 60);
+}

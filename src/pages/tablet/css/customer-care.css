@@ -1,0 +1,76 @@
+.customer-care .tablet .content{
+    padding:15vh 10vw;
+    overflow-x:hidden;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background:#f5f5f5;
+}
+
+.customer-care .tablet .text{
+    padding-top:5vh;
+}
+.customer-care .tablet .text h1{
+    font-size:2.5vw;
+    font-weight:bold;
+    margin-bottom:9vh;
+}
+.customer-care .tablet .text .tab{
+    background:#fff;
+    width:100%;
+    padding:2vh 1.5vw;
+    margin-bottom:4vh;
+    border-radius:10px;
+    font-size:.9vw;
+}
+.customer-care .tablet .text .tab label{
+    font-weight:bold;
+    font-size:1.1vw;
+    color:teal;
+}
+
+
+
+
+.customer-care .tablet .content form{
+    box-shadow: 0 4px 8px 0 rgba(132, 132, 132, 0.2), 0 6px 20px 0 rgba(177, 177, 177, 0.19);
+    border-radius:10px;
+    padding:7.5vh 2.5vw;
+    background:#fff;
+}
+.customer-care .tablet .content form .tab{
+    margin-bottom:5vh;
+}
+.customer-care .tablet .content form label{
+    font-size:.85vw;
+}
+.customer-care .tablet .content form input,
+.customer-care .tablet .content form textarea{
+    font-size:.85vw;
+    width:100%;
+    background:#f0fffd;
+    border:1px #dadada solid;
+    padding:2vh 1vw;
+    border-radius:5px;
+}
+.customer-care .tablet .content form textarea{
+    height:7.5vh;
+}
+.customer-care .tablet .content form button{
+    padding:2vh 1vw;
+    background:teal;
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    transition:.5s ease-in-out;
+    border-radius:5px;
+}
+.customer-care .tablet .content form button:hover{
+    padding:2.25vh 1.25vw;
+    background:rgb(0, 98, 98);
+    /* border:6px rgba(0,0,0,.1) solid; */
+}
+
+.customer-care .tablet .content .specific{
+    color:teal;
+}

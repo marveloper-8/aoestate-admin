@@ -1,0 +1,336 @@
+.mobile{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    /* overflow-x:hidden; */
+    height:auto;
+}
+
+.mobile .header{
+    height:55vh;
+    background:rgb(166, 192, 253);
+}
+
+.mobile .header .text{
+    position:absolute;
+    font-size:3.5vw;
+    top:25vh;
+    left:10vw;
+}
+.mobile .header .text span{
+    background:rgb(0, 0, 0);
+    color:#fff;
+    padding:3vh 3vw;
+}
+
+.mobile .header .text span.primary{
+    z-index:10;
+    display:block;
+    margin-bottom:-9vh;
+}
+
+.mobile .container-text{
+    padding:5vh 10vw;
+    background:#fff;
+}
+.mobile .container-text-two{
+    padding:5vh 10vw;
+}
+.mobile .content{
+    padding:0 0;
+    margin:0;
+}
+.mobile .content h1{
+    color:rgb(182, 164, 60);
+    font-size:7vw;
+    font-weight:bold;
+    margin-bottom:0;
+}
+.mobile .content button{
+    padding:2vh 1vw;
+    background:rgb(182, 164, 60);
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    transition:.5s ease-in-out;
+    border-radius:5px;
+}
+.mobile .content button:hover{
+    padding:2.25vh 1.25vw;
+    background:rgb(0, 98, 98);
+}
+.mobile .content p{
+    padding:2vh 0;
+}
+.mobile .container-text .content .text,
+.mobile .container-text-two .content .text{
+    padding-right:5vw;
+}
+.mobile .container-text .content-right .text,
+.mobile .container-text-two .content-right .text{
+    padding-left:5vw;
+}
+.mobile .container-text .image-collage{
+    display:grid;
+    grid-template-columns:1fr 1.25fr 1fr;
+    margin-top:5vh;
+}
+.mobile .container-text .image-collage div{
+    width:95%;
+    height:50vh;
+    border-radius:5px;
+}
+
+
+.mobile .testimonial{
+    text-align:center;
+    margin:0;
+    padding:10vh 5vw;
+    background:#96d3cb;
+}
+.mobile .testimonial h1,
+.mobile .success-story h1,
+.mobile .logo-carousel h1{
+    color:#000;
+    font-size:3vw;
+}
+.mobile .testimonial .break,
+.mobile .success-story .break,
+.mobile .logo-carousel .break{
+    height:7.5px;
+    width:5vw;
+    margin:2vh auto;
+    background:#000;
+}
+.mobile .testimonial .caption{
+    padding:5vh 15vw;
+}
+.mobile .testimonial .caption .avatar{
+    width:10vw;
+    height:10vw;
+    border-radius:10vw;
+    margin:auto;
+    border:3px #fff solid;
+}
+.mobile .testimonial .caption h4{
+    margin:3vh 0 2vh 0;
+}
+
+
+.mobile .success-story{
+    display:grid;
+    grid-template-columns:1fr 3fr;
+}
+.mobile .success-story .caption{
+    padding:5vh 7.5vw;
+}
+.mobile .success-story h1{
+    font-size:4vw;
+    color:rgb(182, 164, 60);
+}
+.mobile .success-story h4{
+    color:rgb(182, 164, 60);
+    margin-bottom:2vh;
+}
+
+
+.mobile .container-upload{
+    padding:0 10vw;
+}
+.mobile .container-upload h1{
+    font-size:3vw;
+    color:rgb(182, 164, 60);
+    text-align:center;
+    margin-bottom:7.5vh;
+}
+
+
+.mobile .logo-carousel{
+    text-align:center;
+    margin:0;
+    padding:10vh 5vw;
+    background:#fff;
+}
+.mobile .logo-carousel .logo-carousel-container{
+    padding:10vh 5vw;
+    display:grid;
+    text-align:center;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.mobile .logo-carousel .logo-carousel-container .logo{
+    width:70%;
+    margin:auto;
+}
+
+
+.mobile .statistics{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    text-align:center;
+}
+.mobile .statistics h2{
+    font-size:2.5vw;
+    font-weight:bold;
+}
+.mobile .statistics .value{
+    color:rgb(182, 164, 60);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-mobile{
+    padding:5vh 10vw;
+    overflow-x:hidden;
+}
+.form-mobile .text{
+    padding-top:5vh;
+}
+.form-mobile .text h1{
+    color:rgb(182, 164, 60);
+    font-size:7vw;
+    font-weight:bold;
+    margin-bottom:5vh;
+}
+.form-mobile .text .tab{
+    background:#fff;
+    width:100%;
+    padding:2vh 1.5vw;
+    margin-bottom:4vh;
+    border-radius:10px;
+    font-size:.9vw;
+}
+.form-mobile .text .tab label{
+    font-weight:bold;
+    font-size:1.1vw;
+    color:rgb(182, 164, 60);
+}
+.form-mobile .form{
+}
+.form-mobile .form .tab{
+    margin-bottom:5vh;
+}
+.form-mobile .form label{
+    font-size:3vw;
+}
+.form-mobile .form .input,
+.form-mobile .form textarea{
+    font-size:3vw;
+    width:100%;
+    background:rgb(255, 244, 217);
+    border:1px #dadada solid;
+    padding:2vh 4vw;
+    border-radius:5px;
+}
+.form-mobile .form textarea{
+    height:7.5vh;
+}
+.form-mobile .form button{
+    padding:2vh 4vw;
+    background:rgb(182, 164, 60);
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    transition:.5s ease-in-out;
+    border-radius:5px;
+}
+.form-mobile .specific{
+    color:rgb(182, 164, 60);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-mobile-two{
+    box-shadow: 0 4px 8px 0 rgba(132, 132, 132, 0.2), 0 6px 20px 0 rgba(177, 177, 177, 0.19);
+    overflow-x:hidden;
+}
+.form-mobile-two h1{
+    text-align:center;
+    color:rgb(182, 164, 60);
+    padding-bottom:5vh;
+    font-size:2.5vw;
+}
+.form-mobile-two .text{
+    padding-top:5vh;
+}
+.form-mobile-two .text h1{
+    font-size:2.5vw;
+    font-weight:bold;
+    margin-bottom:9vh;
+}
+.form-mobile-two .text .tab{
+    background:#fff;
+    width:100%;
+    padding:2vh 1.5vw;
+    margin-bottom:4vh;
+    border-radius:10px;
+    font-size:.9vw;
+}
+.form-mobile-two .text .tab label{
+    font-weight:bold;
+    font-size:1.1vw;
+    color:rgb(182, 164, 60);
+}
+.form-mobile-two .form{
+    border-radius:10px;
+    padding:7.5vh 2.5vw;
+    background:#fff;
+}
+.form-mobile-two .form .tab{
+    margin-bottom:5vh;
+}
+.form-mobile-two .form label{
+    font-size:.85vw;
+}
+.form-mobile-two .form .input,
+.form-mobile-two .form textarea{
+    font-size:.85vw;
+    width:95%;
+    background:rgb(255, 244, 217);
+    border:1px #dadada solid;
+    padding:2vh 1vw;
+    border-radius:5px;
+    margin-top:1vh;
+}
+.form-mobile-two .form textarea{
+    height:7.5vh;
+}
+.form-mobile-two .form button{
+    padding:2vh 1vw;
+    background:rgb(182, 164, 60);
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    transition:.5s ease-in-out;
+    border-radius:5px;
+}
+.form-mobile-two .form button:hover{
+    padding:2.25vh 1.25vw;
+    background:rgb(0, 98, 98);
+    /* border:6px rgba(0,0,0,.1) solid; */
+}
+
+.form-mobile-two .specific{
+    color:rgb(182, 164, 60);
+}

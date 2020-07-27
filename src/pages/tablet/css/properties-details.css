@@ -1,0 +1,121 @@
+.tablet .properties-details-header{
+    background:#fff;
+    text-align:center;
+    padding:5vh 0;
+    background:#f5f5f5;
+}
+
+.tablet .properties-details-header .subhead{
+    color:#000;
+    font-size:2vw;
+}
+.tablet .properties-details-header .head{
+    font-size:3vw;
+    color:rgb(182, 164, 60);
+    font-weight:bold;
+}
+
+.tablet .properties-details-content{
+    text-align:center;
+    padding:10vh 5vw;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.tablet .properties-details-content .text{
+    padding:0 5vw;
+    text-align:left;
+    font-size:2vw;
+}
+.tablet .properties-details-content .text h1{
+    font-size:4vw;
+    color:rgb(182, 164, 60);
+    font-weight:bold;
+    margin-bottom:3vh;
+}
+.tablet .properties-details-content .text p{
+    padding-bottom:1vh;
+}
+.tablet .properties-details-content .text button{
+    padding:1.5vh 1vw;
+    font-size:2vw;
+    border:none;
+    outline:none;
+    color:#fff;
+    border-radius:5px;
+    margin:0 .25vw;
+}
+.tablet .properties-details-content .text .brochure{
+    background:rgb(182, 164, 60);
+}
+.tablet .properties-details-content .text .flyers{
+    background:rgb(18, 107, 216);
+}
+.tablet .properties-details-content .text .delete{
+    background:rgb(181, 0, 0);
+}
+.tablet .properties-details-content .image-container{}
+.tablet .properties-details-content .image-container .images{
+    width:100%;
+    height:45vh;
+}
+
+.tablet .properties-details-content iframe{
+    width:95%;
+    height:60vh;
+    margin-left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tablet .users-details-content{
+    text-align:left;
+    padding:10vh 10vw;
+}
+.tablet .users-details-content h1{
+    font-size:4vw;
+    color:rgb(182, 164, 60);
+    font-weight:bold;
+    margin-bottom:5vh;
+}
+.tablet .users-details-content .text{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding:0;
+    text-align:left;
+    font-size:2vw;
+}
+.tablet .users-details-content .text div{
+    padding-right:3vw;
+}
+.tablet .users-details-content .text p{
+    padding-bottom:3vh;
+}
+.tablet .users-details-content button{
+    padding:1.5vh 1vw;
+    font-size:2vw;
+    border:none;
+    outline:none;
+    color:#fff;
+    border-radius:5px;
+    margin:0 .25vw;
+}
+.tablet .users-details-content .brochure{
+    background:rgb(182, 164, 60);
+}
+.tablet .users-details-content .flyers{
+    background:rgb(18, 107, 216);
+}
+.tablet .users-details-content .delete{
+    background:rgb(181, 0, 0);
+}

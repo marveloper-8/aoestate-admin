@@ -1,0 +1,31 @@
+.home-desktop{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    /* background:rgb(253, 167, 7); */
+    background:rgb(187, 182, 182, .8);
+    overflow-x:hidden;
+}
+
+.home-desktop .image-container{
+    width:100%;
+}
+
+.home-desktop .image-container .caption{
+    position:absolute;
+    background:#000;
+    color:#fff;
+    padding:3vh 5vw;
+    top:30vh;
+    left:10vw;
+    width:40vw;
+}
+
+.home-desktop .image-container .images{
+    /* background-image:url('../../../images/house.jpg') */
+    width:100vw;
+    height:90vh;
+}

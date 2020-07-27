@@ -1,0 +1,48 @@
+ADMIN LOGIN:
+	site: https://admin.aoestatechariots.com
+	email: admin@aoestatechariots.com
+	password: A0E$taTe
+
+GITHUB LOGIN:
+	site: https://github.com
+	email: dev@aoestatechariots.com
+	password: A0E$taTe
+
+HEROKU LOGIN:
+	site: https://heroku.com
+	email: dev@aoestatechariots.com
+	password: A0E$taTe
+
+MONGO LOGIN:
+	site: https://cloud.mongodb.com
+	email: dev@aoestatechariots.com
+	password: A0E$taTe
+
+CPANEL LOGIN:
+	site: aoestatechariots.com/cpanel
+	username: aoesorgx
+	password: FCJqHHqg53xX
+
+MONGO DATABASE ACCESS LOGIN:
+	username: aoestate
+	password: S2TV6J84Uvl8MBSi
+
+CUSTOMER-CARE@AOESTATECHARIOTS.COM LOGIN:
+	site: aoestatechariots.com/webmail
+	username: customer-care@aoestatechariots.com
+	password: m5DIH5,M@rGf
+
+DEV@AOESTATECHARIOTS.COM LOGIN:
+	site: aoestatechariots.com/webmail
+	username: dev@aoestatechariots.com
+	password: eMs=jZnMu;,3
+
+INFO@AOESTATECHARIOTS.COM LOGIN:
+	site: aoestatechariots.com/webmail
+	username: info@aoestatechariots.com
+	password: 80RqI=Iqy_6Y
+
+TEST@AOESTAECHARIOTS.COM LOGIN:
+	site: aoestatechariots.com/webmail
+	username: test@aoestatechariots.com
+	password: P8OwfaD&]in)

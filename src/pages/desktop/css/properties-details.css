@@ -1,0 +1,119 @@
+.desktop .properties-details-header{
+    background:#fff;
+    text-align:center;
+    padding:10vh 0;
+    background:#f5f5f5;
+}
+
+.desktop .properties-details-header .subhead{
+    color:#000;
+    font-size:1vw;
+}
+.desktop .properties-details-header .head{
+    font-size:3vw;
+    color:rgb(182, 164, 60);
+    font-weight:bold;
+}
+
+.desktop .properties-details-content{
+    text-align:center;
+    padding:10vh 10vw;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.desktop .properties-details-content .text{
+    padding:0 2vw;
+    text-align:left;
+}
+.desktop .properties-details-content .text h1{
+    font-size:2.5vw;
+    color:rgb(182, 164, 60);
+    font-weight:bold;
+    margin-bottom:5vh;
+}
+.desktop .properties-details-content .text p{
+    padding-bottom:3vh;
+}
+.desktop .properties-details-content .text button{
+    padding:1.5vh 1vw;
+    font-size:.9vw;
+    border:none;
+    outline:none;
+    color:#fff;
+    border-radius:5px;
+    margin:0 .25vw;
+}
+.desktop .properties-details-content .text .brochure{
+    background:rgb(182, 164, 60);
+}
+.desktop .properties-details-content .text .flyers{
+    background:rgb(18, 107, 216);
+}
+.desktop .properties-details-content .text .delete{
+    background:rgb(181, 0, 0);
+}
+.desktop .properties-details-content .image-container{}
+.desktop .properties-details-content .image-container .images{
+    width:100%;
+    height:60vh;
+}
+
+.desktop .properties-details-content iframe{
+    width:95%;
+    height:60vh;
+    margin-left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.desktop .users-details-content{
+    text-align:left;
+    padding:10vh 10vw;
+}
+.desktop .users-details-content h1{
+    font-size:2.5vw;
+    color:rgb(182, 164, 60);
+    font-weight:bold;
+    margin-bottom:5vh;
+}
+.desktop .users-details-content .text{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    padding:0;
+    text-align:left;
+}
+.desktop .users-details-content .text div{
+    padding-right:3vw;
+}
+.desktop .users-details-content .text p{
+    padding-bottom:3vh;
+}
+.desktop .users-details-content button{
+    padding:1.5vh 1vw;
+    font-size:.9vw;
+    border:none;
+    outline:none;
+    color:#fff;
+    border-radius:5px;
+    margin:0 .25vw;
+}
+.desktop .users-details-content .brochure{
+    background:rgb(182, 164, 60);
+}
+.desktop .users-details-content .flyers{
+    background:rgb(18, 107, 216);
+}
+.desktop .users-details-content .delete{
+    background:rgb(181, 0, 0);
+}

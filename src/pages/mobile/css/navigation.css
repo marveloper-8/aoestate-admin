@@ -1,0 +1,76 @@
+.navigation-mobile{
+    position:relative;
+    top:0;
+    left:0;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding:2vh 7.5vw;
+    z-index:100;
+    color:#000;
+    background:#fff;
+}
+
+.navigation-mobile .logo img{
+    width:8vw;
+}
+.navigation-mobile .menu img{
+    width:5vw;
+}
+.navigation-mobile .menu{
+    text-align:right;
+    padding-right:7.5vw;
+}
+.navigation-mobile .menu-panel{
+    width:100vw;
+    height:100vh;
+    background:#000;
+    position:fixed;
+    top:0;
+    left:100vw;
+    transition:1s ease-in-out;
+    padding:5vh 10vw;
+    color:#fff;
+}
+.navigation-mobile .menu-panel .close{
+    text-align:right;
+    color:#fff;
+    font-size:15vw;
+}
+.navigation-mobile .menu-toggled{
+    left:0;
+}
+.navigation-mobile .links{
+    font-size:4vw;
+    text-align:center;
+    padding:15vh 0 5vh 0;
+    text-decoration:none;
+}
+.navigation-mobile .links span{
+    padding:1.5vh .75vw;
+    text-align:center;
+    display:block;
+}
+.navigation-mobile .link-items{    
+    color:#fff;
+    text-decoration:none;
+}
+
+.navigation-mobile .activity-buttons{
+    text-align:center;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.navigation-mobile .activity-buttons button{
+    padding:1.5vh .75vw;
+    margin:auto;
+    font-size:4vw;
+    border:none;
+    border-radius:5px;
+    display:block;
+    width:55vw;
+    text-align:center;
+    margin-bottom:2vh;
+    background:#f00;
+    color:#fff;
+}

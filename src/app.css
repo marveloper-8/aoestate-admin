@@ -1,0 +1,26 @@
+.App{
+    font-size:4vw;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+}
+
+/* desktop version */
+.navMobile, .navTablet{
+    display:none;
+}
+
+/* tablet version */
+@media screen and (max-width:800px){
+    .navDesktop, .navMobile{
+        display:none;
+    }
+}
+
+/* mobile version */
+@media screen and (max-width:600px){
+    .navDesktop, .navTablet{
+        display:none;
+    }
+}
